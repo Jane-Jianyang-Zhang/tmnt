@@ -1,0 +1,122 @@
+/*Jianyang Zhang
+Section AD
+This is a style sheet for tmnt.html	*/
+
+body {
+	background-image: URL("https://webster.cs.washington.edu/images/moviebg.png"); 
+	font-size: 10pt;
+	font-family: "Arial", "Helvetica", sans-serif;
+	margin: 0px;
+	padding: 0px; /*not necessary?*/
+	position: relative;
+}
+
+#overallContent{
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 20px;
+	box-shadow: 5px 5px 5px gray;
+	overflow: hidden;
+	background-color: #EEEEEE;
+}
+
+#banner {
+	background-image: URL("https://webster.cs.washington.edu/images/rancidbannerbg.png");
+	text-align: center;
+	background-repeat: repeat-x;
+}
+
+h1{
+	text-align: center;
+	font-size: 24pt;
+	font-weight: bold;
+	font-family: "Georgia", "Times New Roman", serif;
+	text-shadow: 3px 3px #999999; /*check it on firefox*/
+}
+
+#leftSection{
+	width: 550px;
+}
+
+#heading {
+	background-image: URL("https://webster.cs.washington.edu/images/rottenlargebg.png");
+	background-repeat: repeat-x;
+	color: red;
+	font-weight: bold;
+	font-size: 48pt;
+}
+
+#rate  {
+	vertical-align: bottom;
+}
+
+.columns {
+	float: left;
+	width: 47%;
+	margin-left: 2%;
+}
+
+.review {
+	background-color: #FFFFFF;
+	border: 2px solid #CCCCCC;
+	border-radius: 20px;
+	font-family: "Georgia", "Times New Roman", serif;
+	padding: 8px;
+	overflow: hidden;
+	clear: left;
+}
+
+
+
+.icon {
+	float:left;
+	margin-right: 5px;
+}
+
+span {
+	font-style: italic;
+}
+
+.overview {
+	float: right;
+	width: 250px;
+	background-color:#A2B964;	
+}
+
+dl {
+	padding: 10px;
+	font-family: "Arial", "Helvetica",sans-serif;
+}
+
+dt {
+	font-weight: bold;
+}
+
+dd{
+	margin-bottom: 10pt;
+}
+
+ul {
+	list-style-type: none;
+	padding-left: 0;
+	margin: 0;
+}
+
+#page {
+	position: absolute;
+	text-align: center;
+	background-color: #A2B964;
+	width: 790px;
+	bottom: -20px; /*bar not go to the bottom of the page*/
+	padding: 5px;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+
+#validator{
+	right: 0px;
+    bottom: 0px;
+    opacity: 0.5;
+	position:fixed;
+}
